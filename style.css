@@ -84,6 +84,14 @@ main {
   border: 1px solid #f8bbd0;
 }
 
+.student-info {
+  margin-bottom: 1.5rem;
+  padding-top: 1.25rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+
 .works-cited {
   list-style: none;
 }
