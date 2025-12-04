@@ -87,8 +87,11 @@ footer {
 }
 
 .chart-caption {
+  margin-top: 6px;
+  margin-bottom: 25px;
   font-size: 0.9rem;
   font-style: italic;
   color: #555;
-  max-width: 520px;
+}
+
 }
