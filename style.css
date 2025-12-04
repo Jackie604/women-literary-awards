@@ -186,14 +186,41 @@ footer {
   text-indent: 0;
 }
 
-/* Works cited page options */
+/* ====================== */
+/* Works Cited page styles */
+/* ====================== */
 
+/* Use <main class="works-cited"> in works.html */
+
+.works-cited {
+  max-width: 850px;
+  margin: 25px auto 60px auto;
+  padding: 20px 20px 40px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.works-cited h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Hanging indent MLA style for each entry */
+.works-cited p {
+  text-indent: -1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Old works-cited-page class kept in case it's used elsewhere, but not required */
 body.works-cited-page main p {
   text-indent: 0;
   margin-bottom: 10px;
 }
 
-/* if you want hanging indent for specific entries, add class="works-cited-entry" to those p elements */
+/* if you want hanging indent for specific entries somewhere else, add class="works-cited-entry" */
 
 .works-cited-entry {
   margin-left: 2em;
@@ -204,7 +231,8 @@ body.works-cited-page main p {
 /* Responsive design */
 
 @media screen and (max-width: 600px) {
-  main {
+  main,
+  .works-cited {
     padding: 15px;
     margin: 15px 10px 40px 10px;
   }
@@ -223,5 +251,6 @@ body.works-cited-page main p {
     width: 60px;
   }
 }
+
 
 
