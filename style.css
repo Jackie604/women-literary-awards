@@ -1,0 +1,94 @@
+/* General page styling */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #fff9f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  color: #222;
+}
+
+nav {
+  background-color: #f3e5ff;
+  padding: 10px 5px;
+  text-align: center;
+  border-bottom: 2px solid #d0b3ff;
+}
+
+nav a {
+  margin: 0 8px;
+  font-weight: bold;
+  color: #5b2c91;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 25px auto 60px auto;
+  padding: 0 15px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 12px 5px;
+  border-top: 1px solid #e0c7ff;
+  font-size: 0.85rem;
+  color: #555;
+  background-color: #fdf5ff;
+}
+
+/* Chart styling */
+.chart {
+  display: flex;
+  gap: 25px;
+  align-items: flex-end;
+  margin: 20px 0 10px 0;
+}
+
+.bar-group {
+  text-align: center;
+}
+
+.bar {
+  width: 70px;
+  border-radius: 8px 8px 0 0;
+  background: #f48fb1;
+  display: inline-block;
+}
+
+.bar-men {
+  height: 180px; /* 36 * 5 */
+}
+
+.bar-women {
+  height: 90px; /* 18 * 5 */
+}
+
+.bar-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.chart-caption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+  max-width: 520px;
+}
