@@ -68,7 +68,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Paragraph styling – ALL paragraphs indented by default */
+/* Paragraph styling – ALL paragraphs indented */
 
 main p {
   text-indent: 2em;
@@ -76,7 +76,7 @@ main p {
   font-size: 1.02rem;
 }
 
-/* sections (for charts and sub areas) */
+/* Chart areas */
 
 section {
   margin-top: 24px;
@@ -111,8 +111,6 @@ footer {
   text-align: center;
 }
 
-/* base bar look */
-
 .bar {
   width: 70px;
   height: 120px;
@@ -122,13 +120,9 @@ footer {
   transition: height 0.4s ease, background-color 0.4s;
 }
 
-/* hover effect */
-
 .bar:hover {
   background-color: #d16a88;
 }
-
-/* optional gender colors */
 
 .bar-men {
   background-color: #b297ff;
@@ -138,16 +132,12 @@ footer {
   background-color: #ff8eb5;
 }
 
-/* labels under bars */
-
 .bar-label {
   display: block;
   margin-top: 8px;
   font-size: 0.9rem;
   text-indent: 0;
 }
-
-/* graph captions */
 
 .chart-caption {
   margin-top: 6px;
@@ -158,7 +148,7 @@ footer {
   text-indent: 0;
 }
 
-/* author photos (Mary Shelley, Shirley Jackson) */
+/* Author photos */
 
 .author-photo {
   text-align: center;
@@ -182,8 +172,6 @@ footer {
 /* Works Cited page styles */
 /* ====================== */
 
-/* Use <main class="works-cited"> in works.html */
-
 .works-cited {
   max-width: 850px;
   margin: 25px auto 60px auto;
@@ -198,16 +186,16 @@ footer {
   margin-bottom: 24px;
 }
 
-/* Hanging indent MLA style for each entry – overrides main p */
+/* Hanging indent MLA style */
 
 .works-cited p {
-  text-indent: -1.5rem;
-  margin-left: 1.5rem;
+  text-indent: -1.4rem;
+  margin-left: 1.4rem;
   margin-bottom: 1rem;
   font-size: 1rem;
 }
 
-/* Responsive design */
+/* Responsive */
 
 @media screen and (max-width: 600px) {
   main,
@@ -230,6 +218,7 @@ footer {
     width: 60px;
   }
 }
+
 
 
 
