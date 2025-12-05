@@ -171,11 +171,12 @@ figure figcaption {
 
 /* intro image styling */
 .intro-image img {
-  max-width: 300px; /* adjust as needed */
-  width: 90%;
+  max-width: 200px;   /* smaller than before */
+  width: 100%;        /* let it size naturally up to 200px */
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
+
 
 
 /* ====================== */
