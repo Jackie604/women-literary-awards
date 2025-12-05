@@ -169,6 +169,15 @@ figure figcaption {
 }
 
 
+/* intro image styling */
+.intro-image img {
+  max-width: 300px; /* adjust as needed */
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+
 /* ====================== */
 /* Works Cited page styles */
 /* ====================== */
